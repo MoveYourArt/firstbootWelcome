@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html 
+      xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>My Site</title>
+  </head>
+
+  <body>
+    <h1>Welcome to...</h1>
+    <!-- a context-relative URL below. Relative to the web application root
+    once it is installed on the server.  @ means link (URL) expression -->
+    
+    <img th:src="@{/images/taco.png}"/>  
+  </body>
+</html>
